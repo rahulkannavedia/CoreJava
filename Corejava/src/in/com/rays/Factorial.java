@@ -3,18 +3,22 @@ package in.com.rays;
 public class Factorial {
 public static void main(String[] args) {
 	
-	int a=1;
+	int a=5;
 	int b=1;
+
+//	   two ways to find factorial number.
+//     for (int i = a; i >=1; i--) {
+//		b=b*i;
+//	}	
+//     System.out.println(b);
 	
-	while(a<=5) {
-		
-		b=a*b;
-		
-		a++;
-		
-		
-	}
-	System.out.println(b);
+	
+    	for (int i = 1; i <= a; i++) {
+	
+        b=b*i;
+	
+}
+	  System.out.println(b);
 	
 }
 }

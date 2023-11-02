@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	SimpleDateFormat sdf = new SimpleDateFormat ("dd-MM-yyyy");
 	
 	String s = sdf.format(d);
-	
+   
 	System.out.println(s);
 	
 }	

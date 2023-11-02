@@ -3,7 +3,7 @@ package in.com.rays;
 public class BubbleSort {
 	
 public static void main(String[] args) {
-	int[] arr = {1000,1500,500,100,15,20,150,5,2,1};
+	int[] arr = {100,15,20,150,5,2,1};
 	
 	int temp = 0;
 	

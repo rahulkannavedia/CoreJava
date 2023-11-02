@@ -15,13 +15,6 @@ public static void main(String[] args) {
 	String s = sdf.format(d);
 	
 	System.out.println(s);
-	
-	
-	
-	
-	
-	
-	
-	
+		
 }
 }
