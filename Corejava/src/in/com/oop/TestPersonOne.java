@@ -12,6 +12,7 @@ public static void main(String[] args) {
 		System.out.println(p.getId());
 		System.out.println(p.getFirstName());
 		System.out.println(p.getLastName());
+		System.out.println(PersonOne.AVG_AGE);
 }	
 
 }

@@ -3,7 +3,7 @@ package in.com.rays;
 public class PalindromeNumber {
 	
 	public static void main(String[] args) {
-		int a=111;
+		int a=121;
 		int b=a;
 		int c=0;
 		int d;
@@ -18,12 +18,12 @@ public class PalindromeNumber {
 		}
 	if (a==c) {
 		
-		System.out.println("yes this is palindrom");
+		System.out.println("yes this is palindrome");
 		
 	}else {
 		
 		
-		System.out.println("no this is not palindrom");
+		System.out.println("no this is not palindrome");
 	}
 	
 
