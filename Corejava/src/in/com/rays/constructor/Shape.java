@@ -2,24 +2,24 @@ package in.com.rays.constructor;
 
 public class Shape {
 	
-	private String colour;
+	private String color;
 	private int borderWidth;
 	
 	public Shape() {
 		System.out.println("defult constructor");
 	}
 	
-	public Shape(String colour,int borderWidth ) {
-		this.colour = colour;
+	public Shape(String color,int borderWidth ) {
+		this.color = color;
 		this.borderWidth = borderWidth;
 	}
 	
-	public void setColour(String colour) {
-		this.colour = colour;
+	public void setColour(String color) {
+		this.color = color;
 	}
 	
-	public String getColour() {
-		return colour;
+	public String getColor() {
+		return color;
 	}
 	
 	public void setborderWidth(int borderWidth) {

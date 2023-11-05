@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	Account a = new Account();
 	
 	a.setNumber("1002");
-	a.setDouble(185.20);
+	a.setDouble(1850.20);
 	a.setAccountType("current");
     a.deposit(100);
     a.withdraw(50);

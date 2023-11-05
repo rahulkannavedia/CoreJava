@@ -7,7 +7,7 @@ public class TestShape {
 		
 		Shape s2 = new Shape("Red",10);
 		
-		System.out.println(s2.getColour());
+		System.out.println(s2.getColor());
 		System.out.println(s2.getborderWidth());
 		
 	}
