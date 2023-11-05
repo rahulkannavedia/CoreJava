@@ -8,7 +8,9 @@ public static void main(String[] args) {
 	a.setNumber("1002");
 	a.setDouble(185.20);
 	a.setAccountType("current");
-
+    a.deposit(100);
+    a.withdraw(50);
+    
 	System.out.println(a.getNumber());
 	System.out.println(a.getBalance());
 	System.out.println(a.getAccountType());
