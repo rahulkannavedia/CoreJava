@@ -41,8 +41,5 @@ public class Account {
     public String getAccountInfo() {
 		return "Number:"+number+", Account Type:"+accountType+", Balance:"+balance;
     }
-	
-	
-	
-	
+		
 }

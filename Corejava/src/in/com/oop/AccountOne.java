@@ -25,11 +25,11 @@ public class AccountOne {
 		
 		if  (total < 2000) {
 			
-			System.out.println("Low balance");
+			System.out.println("Low balance....");
 		}
 		else {
 			setBalance(total);
-			System.out.println("balance after deposit = " +getBalance());
+			System.out.println("Balance After Deposit = " +getBalance());
 		}
 	}
 	

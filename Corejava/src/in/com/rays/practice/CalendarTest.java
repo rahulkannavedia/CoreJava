@@ -7,8 +7,8 @@ import java.util.Date;
 
 public class CalendarTest {
 public static void main(String[] args) throws ParseException {
-  
-	String s = "12/12/2023";
+	
+	String s = "01/07/2002";
 	
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 	
@@ -18,27 +18,8 @@ public static void main(String[] args) throws ParseException {
 	
 	cal.setTime(d);
 	
-	cal.add(Calendar.DATE, 12);
+	cal.add(Calendar.DATE,1);
 	
 	System.out.println(sdf.format(cal.getTime()));
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}	
-
+}
 }
