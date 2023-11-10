@@ -13,7 +13,7 @@ public class Circle extends Shape {
 	}
 	
 	public void area() {
-		double cArea = 3.14 + getRadius() + getRadius();
+		double cArea = 3.14* getRadius()* getRadius();
 		System.out.println("Circle Area = " + cArea);
 	}
 
