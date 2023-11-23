@@ -2,7 +2,7 @@ package in.com.rays.obj;
 
 public class Shape {
 
-	public void area() {
+	public void Area() {
 		System.out.println("Shape Area Method");
 	}
 
