@@ -4,7 +4,7 @@ public abstract class Shape {
 	
 	public abstract void area();
 	
-	public void sum() {
+	public static void sum() {
 	      System.out.println("shape sum method");
 
 

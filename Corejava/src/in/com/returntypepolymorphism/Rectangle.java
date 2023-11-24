@@ -1,7 +1,6 @@
-package in.com.rays.abs;
+package in.com.returntypepolymorphism;
 
-public class Rectangle extends Shape {
- 
+public class Rectangle {
 	private int length;
 	private int width;
 	
@@ -19,12 +18,12 @@ public class Rectangle extends Shape {
 	
 	public int getWidth() {
 		return width;
+		
 	}
-
+	
 	public void area() {
 		int rArea = getLength() * getWidth();
-		System.out.println("Rectangle Area =" +rArea);
-		
+		System.out.println("Rectangle area = " + rArea);
 	}
 	
 

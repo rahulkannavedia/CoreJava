@@ -44,7 +44,7 @@ public class Person {
 		this.address = address;
 	}
 	
-	public String address() {
+	public String getAddress() {
 		return address;
 		
 	}
