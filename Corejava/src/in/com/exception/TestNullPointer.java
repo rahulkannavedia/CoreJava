@@ -1,4 +1,4 @@
-package in.com.exception;
+ package in.com.exception;
 
 public class TestNullPointer {
 	public static void main(String[] args) {

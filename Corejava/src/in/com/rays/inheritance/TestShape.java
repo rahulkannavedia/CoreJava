@@ -20,11 +20,10 @@ public static void main(String[] args) {
 	t.setBase(10);
 	t.setHeigth(10);
 	
-
 	for (int i = 0; i < s.length; i++) {
 
 		s[i].area();
 	
 	}
   }
-}
+} 
