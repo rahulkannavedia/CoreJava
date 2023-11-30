@@ -6,7 +6,7 @@ public class TestMultipleException {
 		try {
 			String name = "abc";
 			System.out.println(name.length());
-			System.out.println(name.charAt(5));
+//			System.out.println(name.charAt(5));
 		    int a = 10;
 		    int b = 0;
 		    int c = a/b;

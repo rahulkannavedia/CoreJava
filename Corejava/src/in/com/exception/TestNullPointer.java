@@ -6,7 +6,7 @@ public class TestNullPointer {
 		try {
 			String name = null;
 			System.out.println(name.length());
-			
+	 		
 		} catch (Exception e) {
 			System.out.println("Exception = " +e.getMessage());
 		}

@@ -7,7 +7,7 @@ public class TestLoginException {
 		String name = "Admin";
 		if (name.equals("Admi")) {			
 			System.out.println("User Is Valid");		
-		}
+		} 
 		else {
 			try {
 				throw new LoginException();
