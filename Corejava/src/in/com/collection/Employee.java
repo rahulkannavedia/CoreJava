@@ -24,26 +24,26 @@ public class Employee {
 		return salary;
 	}  
 	
-	@Override
-	public int hashCode() {          //hashcode or equals  object ki method hai 
-	    String str = id + name + salary;   //hashcode memory address batata hai
-		return str.hashCode();                
-	}
-	
-	@Override
-	public boolean equals(Object obj) {   
-		
-		Employee e = (Employee) obj;
-		
-		boolean b = this.id == e.id && this.name == e.name && this.salary == e.salary;
-		
-		return b ;
-	}
-	
-	@Override
-	public String toString() {
-		return id + " " + name + " " + salary;
-	}
+//	@Override
+//	public int hashCode() {          //hashcode or equals  object ki method hai 
+//	    String str = id + name + salary;   //hashcode memory address batata hai
+//		return str.hashCode();                
+//	}
+//	
+//	@Override
+//	public boolean equals(Object obj) {  //equals ka return type boolean hai.. 
+//		
+//		Employee e = (Employee) obj;
+//		
+//		boolean b = this.id == e.id && this.name == e.name && this.salary == e.salary;
+//		
+//		return b ;
+//	}
+//	
+//	@Override
+//	public String toString() {
+//		return id + " " + name + " " + salary;
+//	}
 	
 	
 	
